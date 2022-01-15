@@ -25,7 +25,7 @@ var S = {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
       S.UI.simulate('|#countdown 10||米妮|你说跨年想看烟花|那么现在|一起来看吧~');
-      S.UI.simulate('祝米妮情人节快乐~|');
+      S.UI.simulate('祝米妮情人节快乐~');
     }
 
     S.Drawing.loop(function () {
